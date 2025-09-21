@@ -4,12 +4,15 @@ body{
     background-attachment: scroll;    
     font-family:monospace;
     font-size: large;
+    color: rgb(15, 60, 129);
+    max-width: 500px;
 }
-#WholeThing{
+main{
     background-color: azure;
-    align-self: center;
-    margin-left: 115px;
+    margin: auto;
     padding: 1px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     border-radius: 12%;
     width: 1010px;
 }
@@ -30,7 +33,9 @@ h1{
 }
 
 nav{
-    margin-left: 20%;
+    margin-left: 27%;
+    text-align: center;
+    display: flex;
 }
 
 a:link{
@@ -57,6 +62,20 @@ strong{
 #sekcja-trzecia{
     padding-left: 1.5%;
 }
+#sekcja-czwarta{
+    padding-left: 2.5%;
+}
+#sekcja-piąta{
+    margin-left: 4%;
+    padding-left: 2%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: solid;
+    background-color: rgb(206, 239, 248);
+    border-color: cornflowerblue;
+    width: 500px;
+}
+
 blockquote{
     border-left: 5px;
     border-top: 0px;
@@ -77,13 +96,16 @@ footer{
     text-align: center;
 }
 
+p::first-letter{
+    font-size: xx-large;
+}
 p{
     padding-left: 2%;
 }
 
 aside{
     float: right;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-top: -40%;
     font-size: large;
     border-style: dashed;
@@ -128,3 +150,50 @@ table{
     margin-left: 5%;
     width: 900px;
 }
+
+pre{
+    background-color: rgb(197, 230, 230);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: solid;
+    border-color: cornflowerblue;
+}
+
+dl{
+    background-color: rgb(217, 241, 251);
+    border-style: double;
+    border-color: cornflowerblue;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+code{
+    font-family: monospace;
+    color: rgb(71, 113, 190);
+}
+
+form{
+    margin-left: 2.5%;
+}
+
+#tekst{
+    margin-left: 4px;
+    width: 200px;
+}
+#mail{
+    margin-left: 30px;
+    width: 198px;
+}
+
+button{
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.lista123{
+    border-style: dashed;
+    border-color: cornflowerblue;
+    background-color: azure;
+}
+
